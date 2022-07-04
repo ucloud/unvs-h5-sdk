@@ -293,7 +293,7 @@ var Options = {
 phoneNumberServer.CustomControlsInit("ydrzCustomControls",options);
 
 ```
-3）	调用phoneNumberServer.getTokenInfo方法取号，详见[5.2、获取Token](#52获取token)
+3）	调用phoneNumberServer.getTokenInfo方法取号，详见[3.2、获取Token](#32获取token)
 
 4）	在用户完成输入之后调用phoneNumberServer.authGetTokenByLayer方法获取token
 
@@ -675,7 +675,7 @@ phoneNumberServer.CustomControlsInit("ydrzCustomControls",options);
 </table>
 
 
-2）调用phoneNumberServer.getTokenInfo方法取号，详见[5.2、获取Token](#52获取token)
+2）调用phoneNumberServer.getTokenInfo方法取号，详见[3.2、获取Token](#32获取token)
 
 ### 3.6、页面版自定义配置项(authPageType=3)
 
@@ -1340,7 +1340,7 @@ phoneNumberServer.authPageInit(options);
 
 数值支持传入rem，根元素`<html>`的fontsize值为12px；
 
-调用phoneNumberServer.getTokenInfo方法取号，authPageType值为“3”，详见[5.2、获取Token](#52获取token)
+调用phoneNumberServer.getTokenInfo方法取号，authPageType值为“3”，详见[3.2、获取Token](#32获取token)
 
 ## 4、获取手机号码
 
