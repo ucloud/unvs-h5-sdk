@@ -19,8 +19,8 @@
 
 H5一键登录Demo，请扫描下方二维码体验
 
-![一键登录](https://usms-static-file-cpass.cn-sh2.ufileos.com/unvs-sdk-login.png)
+![一键登录](https://usms-static-file-cpass.cn-sh2.ufileos.com/unvs-sdk-login.png?query=4)
 
 H5号码校验Demo，请扫描下方二维码体验
 
-![号码校验](https://usms-static-file-cpass.cn-sh2.ufileos.com/unvs-sdk-auth.png)
+![号码校验](https://usms-static-file-cpass.cn-sh2.ufileos.com/unvs-sdk-auth.png?query=4)

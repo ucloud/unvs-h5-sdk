@@ -303,7 +303,7 @@ var Options = {
   }
 }
 
-phoneNumberServer.CustomControlsInit("ydrzCustomControls",options);
+phoneNumberServer.customControlsInit("ydrzCustomControls",options);
 
 ```
 3）	调用phoneNumberServer.getTokenInfo方法取号，详见[3.2、获取Token](#32获取token)
@@ -377,7 +377,7 @@ var Options = {
     textDecoration:''
   },
 }
-phoneNumberServer.CustomControlsInit("ydrzCustomControls",options);
+phoneNumberServer.customControlsInit("ydrzCustomControls",options);
 
 ```
 #### 3.5.3、字段说明
@@ -694,7 +694,7 @@ phoneNumberServer.CustomControlsInit("ydrzCustomControls",options);
 
 #### 3.6.1、使用方式
 
-1、在调用phoneNumberServer.getTokenInfo方法之前先通过phoneNumberServer.AuthPageInit
+1、在调用phoneNumberServer.getTokenInfo方法之前先通过phoneNumberServer.authPageInit
 方法初始化配置项；
 
 
@@ -795,7 +795,7 @@ var Options = {
     }
 }
 
-phoneNumberServer.AuthPageInit(options);
+phoneNumberServer.authPageInit(options);
 
 ```
 
