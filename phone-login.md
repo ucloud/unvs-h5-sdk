@@ -96,12 +96,25 @@ const phoneNumberServer = new PhoneNumberLogin({
 | ApplicationId | 是   | string | 在UCloud控制台申请的AppId                                                             |
 | PackageName   | 是   | string | 在UCloud控制台申请的包名     
 
+
+**LibInfo 提供方法，可自行实现**
+
+```
+// 判断当前环境是否为wifi
+LibInfo.isWifi()
+// 判断当前环境是否为PC
+LibInfo.osIsPc()
+// 生成32位随机码，由字母和数字组成
+LibInfo.randomString()
+```
+
 <a id="usage52"></a>
 ### 3.2、获取Token
 
 ```js
 phoneNumberServer.getTokenInfo({
     authPageType: "0"
+    traceId: LibInfo.randomString()
     success: function(res) {
         console.log("success", res)
     },
