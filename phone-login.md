@@ -156,15 +156,15 @@ phoneNumberServer.getTokenInfo({
     "msgId": "",
     "YDData": {
         "code": -1,
-        "message": "取号失败"
+        "message": "移动取号失败描述, 详见表格"
     },
     "CTData": {
         "code": -1,
-        "message": "取号失败"
+        "message": "电信取号失败描述，详见表格"
     },
     "CUData": {
         "code": -1,
-        "message": "取号失败"
+        "message": "联通取号失败描述，详见表格"
     }
 }
 ```
@@ -298,11 +298,11 @@ phoneNumberServer.CustomControlsInit("ydrzCustomControls",options);
 4）	在用户完成输入之后调用phoneNumberServer.authGetTokenByLayer方法获取token
 
 ```js
-phoneNumberServer.authGetTokenByLayer({
-  success: function(res) { //成功回调},
-  error: function(res) { //错误回调}
+phoneNumberServer.AuthGetTokenByLayer(function(res) { 
+   // 成功回调 
+}, function(res) {
+   // 错误回调 
 })
-
 ```
 
 #### 3.5.2、有蒙层
@@ -681,7 +681,7 @@ phoneNumberServer.CustomControlsInit("ydrzCustomControls",options);
 
 #### 3.6.1、使用方式
 
-1、在调用phoneNumberServer.getTokenInfo方法之前先通过phoneNumberServer.authPageInit
+1、在调用phoneNumberServer.getTokenInfo方法之前先通过phoneNumberServer.AuthPageInit
 方法初始化配置项；
 
 
@@ -782,7 +782,7 @@ var Options = {
     }
 }
 
-phoneNumberServer.authPageInit(options);
+phoneNumberServer.AuthPageInit(options);
 
 ```
 
@@ -1344,7 +1344,13 @@ phoneNumberServer.authPageInit(options);
 
 ## 4、获取手机号码
 
-待定
+调用接口[GetMobile](https://docs.ucloud.cn/api/unvs-api/get_mobile)获取用户手机号
+
+为安全起见（保证用户PublicKey等参数不泄露），需服务端封装该接口，请求如下必要的参数：
+- 1、Token
+- 2、userInformation
+
+这些参数上一步成功后可以获取，然后调用自己封装的接口校验结果
 
 ## 5、常见问题
 
