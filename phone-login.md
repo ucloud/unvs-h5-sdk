@@ -311,7 +311,7 @@ phoneNumberServer.CustomControlsInit("ydrzCustomControls",options);
 4）	在用户完成输入之后调用phoneNumberServer.authGetTokenByLayer方法获取token
 
 ```js
-phoneNumberServer.AuthGetTokenByLayer(function(res) { 
+phoneNumberServer.authGetTokenByLayer(function(res) { 
    // 成功回调 
 }, function(res) {
    // 错误回调 
