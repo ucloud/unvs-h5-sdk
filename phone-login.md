@@ -86,15 +86,15 @@ const { PhoneNumberLogin } from "@ucloud-sdks/unvs-h5-sdk"
 
 // 初始化实例
 const phoneNumberServer = new PhoneNumberLogin({
-    ApplicationId: "UCloudAppId",
-    PackageName: "UCloudAppName",
+    ApplicationId: "ApplicationId",
+    PackageName: "One of originUrl",
 })
 ```
 
-| 参数名称          | 必选  | 类型     | 说明                                                                             |
-| ------------- | --- | ------ | ------------------------------------------------------------------------------ |
-| ApplicationId | 是   | string | 在UCloud控制台申请的AppId                                                             |
-| PackageName   | 是   | string | 在UCloud控制台申请的包名     
+| 参数名称          | 必选  | 类型     | 说明         |
+| ------------- | --- | ------ | ------------------------------------------- |
+| ApplicationId | 是   | string | 在UCloud控制台申请的H5类型的[应用ID](https://console.ucloud.cn/unvs/application) |
+| PackageName   | 是   | string | 在UCloud控制台申请的H5类型的[源地址的其中一个](https://console.ucloud.cn/unvs/application)
 
 
 **LibInfo 提供方法，可自行实现**
