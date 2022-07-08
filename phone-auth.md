@@ -75,11 +75,13 @@ const phoneNumberServer = new PhoneNumberLogin({
 
 **LibInfo 提供方法，可自行实现**
 
-```
+```js
 // 判断当前环境是否为wifi
 LibInfo.isWifi()
+
 // 判断当前环境是否为PC
 LibInfo.osIsPc()
+
 // 生成32位随机码，由字母和数字组成
 LibInfo.randomString()
 ```
