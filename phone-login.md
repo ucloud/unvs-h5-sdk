@@ -15,6 +15,7 @@
     - [3.6、页面版自定义配置项(authPageType=3)](#36页面版自定义配置项authpagetype3)
       - [3.6.1、使用方式](#361使用方式)
       - [3.6.2、字段说明](#362字段说明)
+      - [3.6.3、SDK字段调用说明](#363sdk字段调用说明)
   - [4、获取手机号码](#4获取手机号码)
   - [5、常见问题](#5常见问题)
   - [6、错误码](#6错误码)
@@ -1356,6 +1357,11 @@ phoneNumberServer.authPageInit(options);
 数值支持传入rem，根元素`<html>`的fontsize值为12px；
 
 调用phoneNumberServer.getTokenInfo方法取号，authPageType值为“3”，详见[3.2、获取Token](#32获取token)
+
+
+#### 3.6.3、SDK字段调用说明
+
+![SDK字段说明](https://github.com/umcloud-org/static/blob/master/unvs/sdk-api-detail.jpg?raw=true)
 
 ## 4、获取手机号码
 
