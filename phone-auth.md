@@ -20,6 +20,13 @@
 
 支持一下几种安装方式
 
+- 引入sdk之前先引入crypto-js.js（3.x/4.x都可以，支持本地引入）
+
+```js
+// 这里举个例子
+<script src="https://cdn.bootcdn.net/ajax/libs/crypto-js/4.1.1/index.js"></script>
+```
+
 - 直接下载源码，静态资源引入，[源码地址](./unvs-h5-sdk.js)
 
 ```

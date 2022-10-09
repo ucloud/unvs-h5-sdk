@@ -36,7 +36,14 @@
 
 支持一下几种安装方式
 
-- 直接下载源码，静态资源引入，[源码地址](./unvs-h5-sdk.js)
+- 引入sdk之前先引入crypto-js.js（3.x/4.x都可以，支持本地引入）
+
+```js
+// 这里举个例子
+<script src="https://cdn.bootcdn.net/ajax/libs/crypto-js/4.1.1/index.js"></script>
+```
+
+- 直接下载源码，静态资源引入，[源码地址](./unvs-h5-sdk.min.js)
 
 ```
 <script type="text/javascript" charset="utf-8" src="xxx/unvs-h5-sdk.js"></script>
@@ -277,7 +284,7 @@ var Options = {
     high:"",
     left:"",
     agreeArr:[
-      {name:"《中国移动服务协议》",url:"协议链接"}
+      {name:"《号码认证服务协议》",url:"协议链接"}
     ],
   },
   closeBtnStyle:{
@@ -352,7 +359,7 @@ var Options = {
     high:"",
     left:"",
     agreeArr:[
-      {name:"《中国移动服务协议》",url:"协议链接"}
+      {name:"《号码认证服务协议》",url:"协议链接"}
     ],
   },
   closeBtnStyle:{
