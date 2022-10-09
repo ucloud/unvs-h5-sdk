@@ -40,7 +40,7 @@
 
 ```js
 // 这里举个例子
-<script src="https://cdn.bootcdn.net/ajax/libs/crypto-js/4.1.1/index.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 ```
 
 - 直接下载源码，静态资源引入，[源码地址](./unvs-h5-sdk.min.js)
