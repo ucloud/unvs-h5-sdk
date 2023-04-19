@@ -20,8 +20,8 @@
 
 H5一键登录Demo，请扫描下方二维码体验
 
-![一键登录](https://github.com/umcloud-org/static/blob/master/unvs/unvs-sdk-login.png?raw=true)
+![一键登录](./unvs-sdk-login.png)
 
 H5号码校验Demo，请扫描下方二维码体验
 
-![本机号码校验](https://github.com/umcloud-org/static/blob/master/unvs/unvs-sdk-auth.png?raw=true)
+![本机号码校验](./unvs-sdk-auth.png)
